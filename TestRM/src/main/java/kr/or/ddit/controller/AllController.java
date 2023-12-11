@@ -35,6 +35,7 @@ public class AllController {
 	@GetMapping("/book")
 	public List<BookVO> selectAllBookInfo() {
 		log.info("selectAllBookInfo... 실핼 확인!");
+		log.info("로그가 찍히면 서버 배포 완료");
 		List<BookVO> bookList = bookService.selectBookList();
 
 		return bookList;
