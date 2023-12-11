@@ -12,8 +12,4 @@ hooks:
   AfterInstall:
     - location: scripts/deploy.sh
       timeout: 60
-<<<<<<< HEAD
       runas: ubuntu
-=======
-      runas: ubuntu
->>>>>>> branch 'master' of https://github.com/dhkek567/RMTEST.git
