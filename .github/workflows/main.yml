@@ -8,7 +8,7 @@ on:
     
 # --------------------------추가
 env:
-  PROJECT_NAME: RMTESTProject
+  PROJECT_NAME: TestRM
   BUCKET_NAME: bucketubuntu
   CODE_DEPLOY_APP_NAME: retestApp
   DEPLOYMENT_GROUP_NAME: reTestGroup
